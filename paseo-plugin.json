@@ -1,0 +1,8 @@
+{
+  "id": "jevgrep",
+  "name": "Jevgrep",
+  "description": "Gives every agent a jevgrep tool that finds source by asking what it does, ranked by TypeSafe Jev.",
+  "requirements": {
+    "paseo": ">=0.16.0-beta.2"
+  }
+}

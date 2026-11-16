@@ -1,0 +1,31 @@
+{
+  "name": "paseo-jevgrep-addon",
+  "private": true,
+  "version": "1.0.0",
+  "files": [
+    "paseo-plugin.json",
+    "OVERVIEW.md",
+    "README.md",
+    "LICENSE",
+    "index.server.ts",
+    "server/"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@getpaseo/plugin": "0.16.0-beta.2",
+    "@types/node": "^22.10.0",
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.6",
+    "zod": "^4.4.3"
+  },
+  "description": "Paseo plugin that gives agents jevgrep: find source by asking what it does, ranked by TypeSafe Jev.",
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fbettag/paseo-jevgrep-addon.git"
+  }
+}
